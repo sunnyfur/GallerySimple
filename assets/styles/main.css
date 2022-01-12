@@ -1,0 +1,41 @@
+.changeColorsDivs {
+    display: flex;
+    gap: 20px;
+    height: 30vh;
+}
+
+.div_color {
+    flex: 1 0 auto;
+}
+
+
+.gallery {
+    display: flex;
+    height: 50vh;
+
+}
+
+
+
+.gallery__img {
+    display: none;
+    height: 100%;
+    width: calc(99vw - 96px);
+    object-fit: cover;
+}
+
+
+.gallery__btn {
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(234, 248, 104, 0.37);
+    color: green;
+
+
+}
+
+.gallery__btn:hover {
+    filter: brightness(80%);
+}

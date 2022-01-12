@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/main.css" />
+</head>
+
+<body>
+    <main class="sections">
+
+        <section>
+            <h1>Блоки, меняющие цвет по нажатию</h1>
+            <div class="changeColorsDivs">
+                <div class="div_color" onclick="divClick(0)"></div>
+                <div class="div_color" onclick="divClick(1)"></div>
+                <div class="div_color" onclick="divClick(2)"></div>
+                <div class="div_color" onclick="divClick(3)"></div>
+                <div class="div_color" onclick="divClick(4)"></div>
+                <!-- <div class="div_color" onclick="divClick(5)"></div> -->
+            </div>
+        </section>
+        <section>
+            <h1>Галерея</h1>
+            <div class="gallery">
+                <div class="gallery__btn gallery__btn_left" onclick="galleryL()"><i class="fas fa-angle-left"></i></div>
+                <div class="gallery__imgs">
+                    <img class="gallery__img" alt="лес" src="assets/img/1-pineforest.jpg" />
+                    <img class="gallery__img" alt="лес" src="assets/img/1396350903_imagedesktop.ru-264.jpg" />
+                    <img class="gallery__img" alt="лес" src="assets/img/2735185581.jpg" />
+                    <img class="gallery__img" alt="лес" src="assets/img/6b202af1e775d22c7934da999a3e8a16.jpeg" />
+                    <img class="gallery__img" alt="лес" src="assets/img/doroga-les-derevya-sosny.jpg" />
+                    <img class="gallery__img" alt="лес" src="assets/img/forest-trees-grass-fog-1199784.jpg" />
+                    <img class="gallery__img" alt="лес" src="assets/img/les-tuman-priroda-16.jpg" />
+                    <img class="gallery__img" alt="лес" src="assets/img/leto-les-xvojnyj-solnechnyj-svet.jpg" />
+                    <img class="gallery__img" alt="лес" src="assets/img/maxresdefault.jpg" />
+                </div>
+                <div class="gallery__btn gallery__right" onclick="galleryR()"><i class="fas fa-angle-right "></i></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/assets/js/changeColor.js"></script>
+    <script src="/assets/js/gallery.js"></script>
+    <script src="https://kit.fontawesome.com/03971be3aa.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
